@@ -1,1 +1,1 @@
-powershell -W Hidden -nop -noni -enc testbase64encode
+powershell -W Hidden -NoProfile -nop -noni -enc testbase64encode
