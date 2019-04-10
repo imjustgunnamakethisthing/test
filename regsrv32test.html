@@ -1,12 +1,8 @@
 <?XML version="1.0"?>
 <scriptlet>
-<registration
-  progid="TESTING"
-  classid="{A1112221-0000-0000-3000-000DA00DABFC}" >
-  <script language="JScript">
-    <![CDATA[
-      var foo = new ActiveXObject("WScript.Shell").Run("Powershell -window maximized write-host 'hello world'"); 
-    ]]>
+<registrationprogid="foo"classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+<script language="JScript">
+<![CDATA[var r = new ActiveXObject("WScript.Shell").Run("cmd /k echo test");]]>
 </script>
 </registration>
 </scriptlet>
