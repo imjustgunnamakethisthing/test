@@ -19,5 +19,7 @@ int main()
     ShellExecuteEx(&ShExecInfo);
     WaitForSingleObject(ShExecInfo.hProcess,INFINITE);    
     
+    MessageBox(NULL, "Hello World", "Hello", MB_OK);
+    
     return 0;
 }
