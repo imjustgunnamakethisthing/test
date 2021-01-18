@@ -1,0 +1,2 @@
+This is a fake beacon file placed here as filler.
+This will be used as part of beacon test to test C2 detection capability.
